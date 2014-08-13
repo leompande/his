@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sunshine - Responsive Hotel Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- LOAD CSS FILES -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    
+    <!-- LOAD JS FILES -->
+   	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+     <script src="js/easing.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+	<script src="js/selectnav.js"></script>
+    <script src="js/ender.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+ 	<script src="js/datepickr.js"></script>
+    <script>
+		jQuery(function() {
+		new datepickr('checkin');
+		});
+		jQuery(function() {
+		new datepickr('checkout');
+		});
+	</script>        
+</head>
+
+<body>
+	<!-- header begin -->
+	<header>
+        	<div id="logo">
+            	<div class="inner">
+   	    		  <a href="index.html"><img src="img/logo.png" alt=""></a>
+            	</div>
+            </div>
+            
+                        
+            <!-- mainmenu begin -->
+            <div id="mainmenu-container">           
+				<ul id="mainmenu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="booking.html#">ROOM</a>
+                  	<ul>
+                    	<li><a href="room-list.html">Room List</a>
+                        <li><a href="room-details.html">Room Details</a>
+                    </ul>
+                  </li>
+                  <li><a href="booking.html">Booking</a></li>
+                  <li><a href="booking.html#">News</a>
+                  	<ul>
+                    	<li><a href="news.html">News List</a></li>
+                    	<li><a href="single-news.html">Single News</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="fullwidth.html">Fullwidth</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              	</ul>
+    		</div>
+
+    </header>
+	<!-- header close -->
+    
+    <!-- subheader begin -->
+	<div id="subheader">
+    	<div class="container">
+    	  <div class="row">
+          	<div class="span12">
+            	<h1>Booking</h1>
+                <span>This is custom slogan for each page.</span>
+            </div>
+          </div>
+    	</div>
+    </div>
+	<!-- subheader close -->  
+      
+	<!-- content begin -->
+  <div id="content">
+    	<div class="container">
+        	<div class="row">
+            	<div class="booking-form">
+                    <div class="span9">
+                    	<div class="row">
+                        <h3 class="title span9">Personal Data</h3>
+                    	<div class="span3">
+                            <span class="text-label"><i class=" icon-user"></i>Name</span>
+                            <input type="text">
+                        </div>
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-envelope-alt"></i>Email</span>
+                            <input type="text">
+                        </div>
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-phone"></i>Phone</span>
+                            <input type="text">
+                        </div>
+                        <h3 class="title span9">Your Stay</h3>
+                        <div class="span6">
+                            <span class="text-label"><i class="icon-group"></i>Guests</span>
+                        	<div class="row">
+                            	<div class="span3">
+                                    <select>
+                                          <option>Adults</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                          <option>5+</option>
+                                    </select>
+                               	</div>
+                                <div class="span3">
+                                    <select>
+                                          <option>Kids</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                          <option>5+</option>
+                                    </select>
+                               	</div>
+                        	</div>                       
+                        </div>	
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-suitcase"></i>Room</span>
+                            <select>
+                                  <option>Select Room</option>
+                                  <option>Deluxe Room - $199 / night</option>
+                                  <option>Elegant Room - $299 / night</option>
+                                  <option>luxury Room - $399 / night</option>
+                            </select>
+                        </div>
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-calendar"></i>Check In Date</span>
+                            <input type="text" id="checkin">
+                        </div>
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-calendar"></i>Check Out Date</span>
+                            <input type="text" id="checkout">
+                        </div>
+                        <div class="span3">
+                            <span class="text-label"><i class="icon-money"></i>Payment</span>
+                            <select>
+                                  <option>Select Payment</option>
+                                  <option>Cash</option>
+                                  <option>Credit Card</option>
+                                  <option>Bank Transfer</option>
+                            </select>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="span3 btn-book-submit">
+                    	<input type="button" class="btn btn-primary" value="Submit"> 
+                    </div>
+            	</div>
+            </div>
+        </div>
+	</div>
+	<!-- content close -->
+    
+    <!-- footer begin -->
+	<footer>
+  		<div class="container">
+   	  		<div class="row">
+                <div class="span3">
+                	<img src="img/logo-2.png" alt="">
+                </div> 
+            	<div class="span3">
+                	<h3>About Us</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>                                
+ 				<div class="span3">
+                    <h3>Latest News</h3>
+                    <ul class="list-news"> 
+                        <li>
+                            <img src="img/thumbnail-1.jpg" alt=""/>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                        </li>
+                        <li>
+                            <img src="img/thumbnail-1.jpg" alt=""/>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                        </li>
+                    </ul>                
+               </div>
+               <div class="span3">
+                	<h3>Our Address</h3>
+                    	<address>
+                                80 Gotham Street, Sydney
+                        <span><strong>Phone:</strong>(208) 222 4546</span>
+                        <span><strong>Fax:</strong>(208) 222 4647</span>
+                        <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
+                        <span><strong>Web:</strong><a href="booking.html#test">http://example.com</a></span>
+                       </address>
+                       
+                       <div class="social-icons">
+                        	<a href="booking.html#"><img src="img/social-icons/rss.png" alt=""/></a>
+                        	<a href="booking.html#"><img src="img/social-icons/facebook.png" alt=""/></a>
+                        	<a href="booking.html#"><img src="img/social-icons/twitter.png" alt=""/></a>
+                        	<a href="booking.html#"><img src="img/social-icons/gplus.png" alt=""/></a>
+                        	<a href="booking.html#"><img src="img/social-icons/youtube.png" alt=""/></a>
+                        	<a href="booking.html#"><img src="img/social-icons/vimeo.png" alt=""/></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subfooter">
+        	<div class="container">
+                <div class="row">
+                	<div class="span6">
+                    	&copy; Copyiright 2013 - Sunshine by Aveothemes
+                    </div>
+                    <div class="span6">
+                    	<nav>
+                          <ul>
+                              <li><a href="booking.html#">Home</a></li>
+                              <li><a href="booking.html#">Room</a></li>
+                              <li><a href="booking.html#">Booking</a></li>
+                              <li><a href="booking.html#">News</a></li>
+                              <li><a href="booking.html#">Gallery</a></li>
+                              <li><a href="booking.html#">Contact</a></li>
+                          </ul>
+                        </nav>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+   	</footer>
+	<!-- footer close -->
+   
+</body>
+</html>
+
