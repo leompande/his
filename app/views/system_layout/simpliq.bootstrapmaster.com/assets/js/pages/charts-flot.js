@@ -465,7 +465,7 @@ $(document).ready(function(){
 			if (!obj)
 					return;
 			percent = parseFloat(obj.series.percent).toFixed(2);
-			$("#hover").html('<span style="font-weight: bold; color: '+obj.series.color+'">'+obj.series.label+' ('+percent+'%)</span>');
+			$("#hover").html('<span style="fontz-weight: bold; color: '+obj.series.color+'">'+obj.series.label+' ('+percent+'%)</span>');
 		}
 		$("#piechart").bind("plothover", pieHover);
 	}

@@ -6,6 +6,9 @@
  * Time: 9:22 AM
  */
 
-class Booking {
+class Booking extends  Eloquent {
+    protected $table = 'bookings';
+    protected $guarded = array('id');
+
 
 } 

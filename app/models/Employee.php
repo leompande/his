@@ -6,6 +6,7 @@
  * Time: 9:29 AM
  */
 
-class Employee {
-
+class Employee extends  Eloquent {
+    protected $table = 'employees';
+    protected $guarded = array('id');
 } 

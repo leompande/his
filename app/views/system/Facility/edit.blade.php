@@ -2,16 +2,8 @@
     <div class="col-md-12">
         <form role="form">
             <div class="form-group">
-                <label for="reg_no">Room Reg.#</label>
-                <input type="text" class="form-control" id="reg_no" placeholder="Room Reg.#">
-            </div>
-            <div class="form-group">
-                <label for="room_phone_no">Room Phone no.</label>
-                <input type="text" class="form-control" id="room_phone_no" placeholder="Room Phone no.">
-            </div>
-            <div class="form-group">
-                <label for="category">Room Category</label>
-                <select type="text" id="category"></select>
+                <label for="facility_name">Facility Name</label>
+                <input type="text" class="form-control" id="facility_name" placeholder="Facility Name">
             </div>
 
             <button type="submit" class="btn btn-default">Register</button>

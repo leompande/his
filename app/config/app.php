@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -169,7 +169,7 @@ return array(
 		'HTML'              => 'Illuminate\Support\Facades\HTML',
 		'Input'             => 'Illuminate\Support\Facades\Input',
 		'Lang'              => 'Illuminate\Support\Facades\Lang',
-		'Log'               => 'Illuminate\Support\Facades\Log',
+		'Category'               => 'Illuminate\Support\Facades\Log',
 		'Mail'              => 'Illuminate\Support\Facades\Mail',
 		'Paginator'         => 'Illuminate\Support\Facades\Paginator',
 		'Password'          => 'Illuminate\Support\Facades\Password',

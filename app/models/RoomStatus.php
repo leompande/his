@@ -6,6 +6,11 @@
  * Time: 9:28 AM
  */
 
-class RoomStatus {
+class RoomStatus extends Eloquent {
+    protected $table = 'room_status';
+    protected $guarded = array('id');
 
+    public function Room(){
+        return $this->hasMany("Room");
+    }
 } 

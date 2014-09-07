@@ -6,13 +6,13 @@
  * Time: 9:27 AM
  */
 
-class RoomFacility extends Eloquent {
-    protected $table = 'room_facilities';
+class Facility extends Eloquent {
+    protected $table = 'facilities';
     protected $guarded = array('id');
 
 
-    public function Room(){
-        return $this-> belongsTo('Room','facility_id');
+    public function category(){
+        return $this-> belongsToMany('RoomCategory');
     }
 
 

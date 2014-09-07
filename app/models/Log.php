@@ -11,7 +11,13 @@ class Log extends Eloquent {
     protected $guarded = array('id');
 
     public function user(){
-        return $this->belongsTo("User","user_id");
+        return $this->belongsTo("User","user_id","id");
     }
 
+    public static function useFiles(){
+
+    }
+    public static function error(){
+
+    }
 } 

@@ -179,10 +179,10 @@
 
 			self.controls = $("<div/>").addClass(self.options.controlsContainerClass);
 
-			self.addAllButton = $("<button type='button'/>").click({pickList: self}, self._addAllHandler).html(self.options.addAllLabel).addClass(self.options.addAllClass);
-			self.addButton = $("<button type='button'/>").click({pickList: self}, self._addHandler).html(self.options.addLabel).addClass(self.options.addClass);
-			self.removeButton = $("<button type='button'/>").click({pickList: self}, self._removeHandler).html(self.options.removeLabel).addClass(self.options.removeClass);
-			self.removeAllButton = $("<button type='button'/>").click({pickList: self}, self._removeAllHandler).html(self.options.removeAllLabel).addClass(self.options.removeAllClass);
+			self.addAllButton = $("<button type='button' class='btn btn-xs btn-info' />").click({pickList: self}, self._addAllHandler).html(self.options.addAllLabel).addClass(self.options.addAllClass);
+			self.addButton = $("<button type='button' class='btn btn-xs btn-info' />").click({pickList: self}, self._addHandler).html(self.options.addLabel).addClass(self.options.addClass);
+			self.removeButton = $("<button type='button' class='btn btn-xs btn-info' />").click({pickList: self}, self._removeHandler).html(self.options.removeLabel).addClass(self.options.removeClass);
+			self.removeAllButton = $("<button type='button' class='btn btn-xs btn-info' />").click({pickList: self}, self._removeAllHandler).html(self.options.removeAllLabel).addClass(self.options.removeAllClass);
 
 			self.controls
 					.append(self.addAllButton)

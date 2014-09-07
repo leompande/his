@@ -27,8 +27,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot%3Fv=3.2.1');
-  src: url('../font/fontawesome-webfont.eot%3F') format('embedded-opentype'), url('../font/fontawesome-webfont.woff%3Fv=3.2.1') format('woff'), url('../font/fontawesome-webfont.ttf%3Fv=3.2.1') format('truetype'), url('../font/fontawesome-webfont.svg') format('svg');
+  src: url('../fontz/fontawesome-webfont.eot%3Fv=3.2.1');
+  src: url('../fontz/fontawesome-webfont.eot%3F') format('embedded-opentype'), url('../fontz/fontawesome-webfont.woff%3Fv=3.2.1') format('woff'), url('../fontz/fontawesome-webfont.ttf%3Fv=3.2.1') format('truetype'), url('../fontz/fontawesome-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -49,7 +49,7 @@
   display: inline-block;
   speak: none;
 }
-/* makes the font 33% larger relative to the icon container */
+/* makes the fontz 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
@@ -59,7 +59,7 @@ a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline;
 }
-/* increased font size for icon-large */
+/* increased fontz size for icon-large */
 [class^="icon-"].icon-fixed-width,
 [class*=" icon-"].icon-fixed-width {
   display: inline-block;
