@@ -9,7 +9,7 @@ class ClientController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+        return View::make('system.Client.index');
 	}
 
 
@@ -18,9 +18,18 @@ class ClientController extends \BaseController {
 	 *
 	 * @return Response
 	 */
+	public function lists()
+	{
+        return View::make('system.Client.list');
+	}
+    /**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
 	public function create()
 	{
-		//
+        return View::make('system.Client.add');
 	}
 
 
@@ -31,7 +40,16 @@ class ClientController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+
+            Client::create(array(
+            'firstname' => Input::get("firstname"),
+            'middlename' => Input::get("middlename"),
+            'lastname' => Input::get("email"),
+            'email' => Input::get("email"),
+            'phone' => Input::get("phone"),
+            'nationality' => Input::get("nationality")
+
+        ));
 	}
 
 

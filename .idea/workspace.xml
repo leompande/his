@@ -2,32 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b9d4d65-df27-4fef-b47a-0ced050f6874" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/CategoryFacilities.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/Category.php" afterPath="$PROJECT_DIR$/app/models/RoomCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/assets/jquery-UI/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/system/User/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/commands/.gitkeep" afterPath="$PROJECT_DIR$/app/commands/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/packages/.gitkeep" afterPath="$PROJECT_DIR$/app/config/packages/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/.gitkeep" afterPath="$PROJECT_DIR$/app/controllers/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/app/database/migrations/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/app/database/seeds/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/.gitkeep" afterPath="$PROJECT_DIR$/public/packages/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/addthis.png" afterPath="$PROJECT_DIR$/public/img/social-icons/addthis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/avatar.jpg" afterPath="$PROJECT_DIR$/public/img/avatar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/behance.png" afterPath="$PROJECT_DIR$/public/img/social-icons/behance.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/bg-blur-1.jpg" afterPath="$PROJECT_DIR$/public/img/bg-blur-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/blogger.png" afterPath="$PROJECT_DIR$/public/img/social-icons/blogger.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/btnNext.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/btnNext.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/btnNext.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/btnNext.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/btnNext.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/btnPrevious.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/btnPrevious.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/default_thumb.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/default_thumb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/digg.png" afterPath="$PROJECT_DIR$/public/img/social-icons/digg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/divider-1.png" afterPath="$PROJECT_DIR$/public/img/divider-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/dribbble.png" afterPath="$PROJECT_DIR$/public/img/social-icons/dribbble.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/facebook.png" afterPath="$PROJECT_DIR$/public/img/social-icons/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/flickr.png" afterPath="$PROJECT_DIR$/public/img/social-icons/flickr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.eot" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.eot" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.ttf" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.ttf" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.woff" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.woff" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.eot" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.eot" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.ttf" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.ttf" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.woff" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.woff" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/gplus.png" afterPath="$PROJECT_DIR$/public/img/social-icons/gplus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/instagram.png" afterPath="$PROJECT_DIR$/public/img/social-icons/instagram.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/lastfm.png" afterPath="$PROJECT_DIR$/public/img/social-icons/lastfm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/like.png" afterPath="$PROJECT_DIR$/public/img/social-icons/like.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/linkedin.png" afterPath="$PROJECT_DIR$/public/img/social-icons/linkedin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/loader.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/loader.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/loader.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/loader.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/loader.gif" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/logo-2.png" afterPath="$PROJECT_DIR$/public/img/logo-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/logo.png" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/myspace.png" afterPath="$PROJECT_DIR$/public/img/social-icons/myspace.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (1).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider-home/pic (1).jpg" afterPath="$PROJECT_DIR$/public/img/slider-home/pic (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (2).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (2).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider-home/pic (2).jpg" afterPath="$PROJECT_DIR$/public/img/slider-home/pic (2).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (3).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (3).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (4).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (4).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (5).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (5).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (6).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (6).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (7).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (7).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/gallery/pic (8).jpg" afterPath="$PROJECT_DIR$/public/img/gallery/pic (8).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/pic-blank-1.gif" afterPath="$PROJECT_DIR$/public/img/pic-blank-1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/picasa.png" afterPath="$PROJECT_DIR$/public/img/social-icons/picasa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/reddit.png" afterPath="$PROJECT_DIR$/public/img/social-icons/reddit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/rss.png" afterPath="$PROJECT_DIR$/public/img/social-icons/rss.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/sharethis.png" afterPath="$PROJECT_DIR$/public/img/social-icons/sharethis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/skype.png" afterPath="$PROJECT_DIR$/public/img/social-icons/skype.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/spotify.png" afterPath="$PROJECT_DIR$/public/img/social-icons/spotify.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/dark_square/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/facebook/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_rounded/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/sprite.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/light_square/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_next.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_next.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_prev.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_prev.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_x.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_y.png" afterPath="$PROJECT_DIR$/public/img/prettyPhoto/default/sprite_y.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/stumbleupon.png" afterPath="$PROJECT_DIR$/public/img/social-icons/stumbleupon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/themes.gif" afterPath="$PROJECT_DIR$/public/img/themes.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/thumbnail-1.jpg" afterPath="$PROJECT_DIR$/public/img/thumbnail-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/thumbnail-2.jpg" afterPath="$PROJECT_DIR$/public/img/thumbnail-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/thumbnail-3.jpg" afterPath="$PROJECT_DIR$/public/img/thumbnail-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/tumblr.png" afterPath="$PROJECT_DIR$/public/img/social-icons/tumblr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/twitter.png" afterPath="$PROJECT_DIR$/public/img/social-icons/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/ui.totop.png" afterPath="$PROJECT_DIR$/public/img/ui.totop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/vimeo.png" afterPath="$PROJECT_DIR$/public/img/social-icons/vimeo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/wordpress.png" afterPath="$PROJECT_DIR$/public/img/social-icons/wordpress.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-icons/youtube.png" afterPath="$PROJECT_DIR$/public/img/social-icons/youtube.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/.gitignore" afterPath="$PROJECT_DIR$/app/database/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/.gitignore" afterPath="$PROJECT_DIR$/app/storage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/app/storage/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/app/storage/meta/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/app/storage/views/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222327_create_client_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222327_create_client_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222422_create_room_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222422_create_room_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222752_create_reservation_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222752_create_reservation_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_223625_create_employee_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_223625_create_employee_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_223859_create_room_status_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_223859_create_room_status_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_224021_create_client_action_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_224021_create_client_action_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_224650_create_category_facility_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_224650_create_category_facility_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_25_225252_create_payment_routine_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_25_225252_create_payment_routine_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_28_145532_create_categories_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_28_145532_create_categories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_08_074129_create_logs_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_08_074129_create_logs_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_08_083035_create_status_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_08_083035_create_status_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_08_163639_create_facility_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_08_163639_create_facility_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Booking.php" afterPath="$PROJECT_DIR$/app/models/Booking.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BookingController.php" afterPath="$PROJECT_DIR$/app/controllers/BookingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/CategoryFacilities.php" afterPath="$PROJECT_DIR$/app/models/CategoryFacilities.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Client.php" afterPath="$PROJECT_DIR$/app/models/Client.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ClientAction.php" afterPath="$PROJECT_DIR$/app/models/ClientAction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ClientController.php" afterPath="$PROJECT_DIR$/app/controllers/ClientController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/DashboardController.php" afterPath="$PROJECT_DIR$/app/controllers/DashboardController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Employee.php" afterPath="$PROJECT_DIR$/app/models/Employee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/EmployeeController.php" afterPath="$PROJECT_DIR$/app/controllers/EmployeeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/app/tests/ExampleTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Facility.php" afterPath="$PROJECT_DIR$/app/models/Facility.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/FacilityController.php" afterPath="$PROJECT_DIR$/app/controllers/FacilityController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Log.php" afterPath="$PROJECT_DIR$/app/models/Log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/MainController.php" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/PaymentController.php" afterPath="$PROJECT_DIR$/app/controllers/PaymentController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/PaymentRoutine.php" afterPath="$PROJECT_DIR$/app/models/PaymentRoutine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Reservation.php" afterPath="$PROJECT_DIR$/app/models/Reservation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReservationController.php" afterPath="$PROJECT_DIR$/app/controllers/ReservationController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Room.php" afterPath="$PROJECT_DIR$/app/models/Room.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/RoomCategory.php" afterPath="$PROJECT_DIR$/app/models/RoomCategory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RoomController.php" afterPath="$PROJECT_DIR$/app/controllers/RoomController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/RoomStatus.php" afterPath="$PROJECT_DIR$/app/models/RoomStatus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/TestCase.php" afterPath="$PROJECT_DIR$/app/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Booking/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Booking/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Category/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Category/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Client/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Client/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Dashboard/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Dashboard/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Employee/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Employee/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Facility/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Facility/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Reservation/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Reservation/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Room/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Room/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/User/add.blade.php" afterPath="$PROJECT_DIR$/app/views/system/User/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/app.php" afterPath="$PROJECT_DIR$/app/config/local/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/artisan.php" afterPath="$PROJECT_DIR$/app/start/artisan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/auth.php" afterPath="$PROJECT_DIR$/app/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/booking.html" afterPath="$PROJECT_DIR$/app/views/site/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/pages/charts-flot.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/pages/charts-flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/pages/charts-flot.js" afterPath="$PROJECT_DIR$/public/system/assets/js/pages/charts-flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/cache.php" afterPath="$PROJECT_DIR$/app/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testing/cache.php" afterPath="$PROJECT_DIR$/app/config/testing/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/compile.php" afterPath="$PROJECT_DIR$/app/config/compile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/contact.html" afterPath="$PROJECT_DIR$/app/views/site/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/database.php" afterPath="$PROJECT_DIR$/app/config/local/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/datepicker.css" afterPath="$PROJECT_DIR$/public/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Booking/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Booking/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Category/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Category/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Client/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Client/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Dashboard/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Dashboard/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Employee/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Employee/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Facility/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Facility/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Reservation/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Reservation/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Room/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Room/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/User/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/system/User/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/css/fullcalendar.css" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/css/fullcalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/css/fullcalendar.css" afterPath="$PROJECT_DIR$/public/system/assets/css/fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/fullwidth.html" afterPath="$PROJECT_DIR$/app/views/site/fullwidth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/gallery.html" afterPath="$PROJECT_DIR$/app/views/site/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/global.php" afterPath="$PROJECT_DIR$/app/start/global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.svg" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.svg" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.svg" afterPath="$PROJECT_DIR$/public/font-awesome/font/glyphicons-social-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.svg" afterPath="$PROJECT_DIR$/public/font-awesome/fontz/glyphicons-social-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/index.blade.php" afterPath="$PROJECT_DIR$/app/views/site/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Booking/index.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Booking/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Category/index.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Category/index.blade.php" />
@@ -38,29 +228,51 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Reservation/index.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Reservation/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Room/index.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Room/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/User/index.blade.php" afterPath="$PROJECT_DIR$/app/views/system/User/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/index.html" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/index.html" afterPath="$PROJECT_DIR$/app/views/site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery-picklist.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery-picklist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.chosen.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.chosen.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.chosen.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.chosen.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.cleditor.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.cleditor.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.cleditor.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.cleditor.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.elfinder.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.elfinder.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.elfinder.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.elfinder.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.flot.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.flot.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.flot.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.flot.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.flot.pie.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.flot.pie.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/jquery.sparkline.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/public/system/assets/js/jquery.ui.widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Booking/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Booking/list.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Category/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Category/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Client/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Client/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Dashboard/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Dashboard/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Employee/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Employee/list.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Facility/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Facility/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Reservation/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Reservation/list.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/Room/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/Room/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system/User/list.blade.php" afterPath="$PROJECT_DIR$/app/views/system/User/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/local.php" afterPath="$PROJECT_DIR$/app/start/local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site_layout/master.blade.php" afterPath="$PROJECT_DIR$/app/views/site_layout/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/master.blade.php" afterPath="$PROJECT_DIR$/app/views/system_layout/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/menu.blade.php" afterPath="$PROJECT_DIR$/app/views/system_layout/menu.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/raphael.min.js" afterPath="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/assets/js/raphael.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/js/raphael.min.js" afterPath="$PROJECT_DIR$/public/system/assets/js/raphael.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/news.html" afterPath="$PROJECT_DIR$/app/views/site/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/pagination.php" afterPath="$PROJECT_DIR$/app/lang/en/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/paths.php" afterPath="$PROJECT_DIR$/bootstrap/paths.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/public/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" afterPath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/reminders.php" afterPath="$PROJECT_DIR$/app/lang/en/reminders.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/remote.php" afterPath="$PROJECT_DIR$/app/config/remote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/responsiveslides.css" afterPath="$PROJECT_DIR$/public/css/responsiveslides.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/room-details.html" afterPath="$PROJECT_DIR$/app/views/site/room-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/room-list.html" afterPath="$PROJECT_DIR$/app/views/site/room-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.php" afterPath="$PROJECT_DIR$/app/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testing/session.php" afterPath="$PROJECT_DIR$/app/config/testing/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/site/single-news.html" afterPath="$PROJECT_DIR$/app/views/site/single-news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/start.php" afterPath="$PROJECT_DIR$/bootstrap/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/assets/css/style.min.css" afterPath="$PROJECT_DIR$/public/system/assets/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/validation.php" afterPath="$PROJECT_DIR$/app/lang/en/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/view.php" afterPath="$PROJECT_DIR$/app/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/workbench.php" afterPath="$PROJECT_DIR$/app/config/workbench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="his.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,98 +297,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Room/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.333334" vertical-offset="0" max-vertical-offset="1026">
-              <caret line="47" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <marker date="1410053523076" expanded="false" signature="1617:1630" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Room.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="360">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Room/list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="1584">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Dashboard/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/views/site/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8245616" vertical-offset="5230" max-vertical-offset="5724">
-              <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
-              <folding>
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0" expanded="false" />
-                <element signature="e#6261#6308#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Booking/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.333332" vertical-offset="0" max-vertical-offset="1206">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state vertical-scroll-proportion="-200.0" vertical-offset="864" max-vertical-offset="6696">
+              <caret line="348" column="87" selection-start-line="348" selection-start-column="87" selection-end-line="348" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Facility/index.blade.php">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/site_layout/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333" vertical-offset="648" max-vertical-offset="1188">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/system/Booking/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29347825" vertical-offset="54" max-vertical-offset="1296">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-              <folding>
-                <marker date="1410074461103" expanded="false" signature="2360:2373" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Booking.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Booking.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_07_25_222818_create_booking_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665" vertical-offset="162" max-vertical-offset="918">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="30" selection-end-column="39" />
+            <state vertical-scroll-proportion="-232.0" vertical-offset="0" max-vertical-offset="6696">
+              <caret line="348" column="87" selection-start-line="348" selection-start-column="28" selection-end-line="348" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -185,11 +320,91 @@
       <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/system_layout/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.0" vertical-offset="270" max-vertical-offset="8010">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.6666666" vertical-offset="6524" max-vertical-offset="8046">
+              <caret line="368" column="66" selection-start-line="368" selection-start-column="66" selection-end-line="368" selection-end-column="66" />
               <folding>
-                <marker date="1410054884084" expanded="true" signature="2379:2497" placeholder="..." />
+                <marker date="1413080184380" expanded="true" signature="2596:2714" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="378" max-vertical-offset="2286">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding>
+                <element signature="n#logout#0;n#MainController#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="1692">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/BookingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="2052">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/system/User/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0" vertical-offset="216" max-vertical-offset="1692">
+              <caret line="66" column="122" selection-start-line="66" selection-start-column="122" selection-end-line="66" selection-end-column="122" />
+              <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1413081270988" expanded="true" signature="4632:4744" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/filters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="378" max-vertical-offset="1620">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37190083" vertical-offset="0" max-vertical-offset="1062">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.592592" vertical-offset="434" max-vertical-offset="972">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,21 +422,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_25_225252_create_payment_routine_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_28_145532_create_categories_table.php" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/views/site_layout/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/models/PaymentRoutine.php" />
-        <option value="$PROJECT_DIR$/app/models/Employee.php" />
-        <option value="$PROJECT_DIR$/app/models/Reservation.php" />
-        <option value="$PROJECT_DIR$/app/models/ClientAction.php" />
-        <option value="$PROJECT_DIR$/app/models/Client.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_08_074129_create_logs_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_25_222752_create_reservation_table.php" />
-        <option value="$PROJECT_DIR$/app/models/Booking.php" />
-        <option value="$PROJECT_DIR$/app/models/RoomFacility.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_08_083035_create_status_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_25_223859_create_room_status_table.php" />
         <option value="$PROJECT_DIR$/app/models/RoomStatus.php" />
         <option value="$PROJECT_DIR$/app/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/app/views/system_layout/simpliq.bootstrapmaster.com/index.html" />
@@ -230,15 +430,7 @@
         <option value="$PROJECT_DIR$/app/models/Logging.php" />
         <option value="$PROJECT_DIR$/app/start/global.php" />
         <option value="$PROJECT_DIR$/app/models/Log.php" />
-        <option value="$PROJECT_DIR$/app/controllers/DashboardController.php" />
-        <option value="$PROJECT_DIR$/app/views/site/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ReservationController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/BookingController.php" />
-        <option value="$PROJECT_DIR$/app/views/system_layout/menu.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/system/Client/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Employee/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/system/Reservation/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Categories/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Facility/list.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Category.php" />
@@ -248,16 +440,39 @@
         <option value="$PROJECT_DIR$/app/models/RoomCategory.php" />
         <option value="$PROJECT_DIR$/app/views/system/Category/list.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/models/Room.php" />
-        <option value="$PROJECT_DIR$/app/views/system/Room/list.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Room/index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/RoomController.php" />
-        <option value="$PROJECT_DIR$/app/views/system_layout/master.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Dashboard/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Room/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Room/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php" />
         <option value="$PROJECT_DIR$/app/views/system/Booking/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/BookingController.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Booking/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ReservationController.php" />
+        <option value="$PROJECT_DIR$/app/views/system_layout/menu.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ClientController.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Client/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Client/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Client/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Reservation/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Reservation/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/system/Reservation/add.blade.php" />
         <option value="$PROJECT_DIR$/app/views/system/Booking/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_11_233821_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/views/site_layout/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/site/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/system/assets/css/style.min.css" />
+        <option value="$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/views/system_layout/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/views/system/User/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/filters.php" />
+        <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
       </list>
     </option>
   </component>
@@ -310,7 +525,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,20 +540,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="his" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="his" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="his" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,32 +623,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Facility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="his" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="his" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -470,14 +644,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Booking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -494,6 +660,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -515,8 +685,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="his" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="his" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,23 +719,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/system/assets/jquery-UI" />
       <recent name="$PROJECT_DIR$/app/views/system/Dasboard" />
       <recent name="$PROJECT_DIR$/app/views/system/User" />
       <recent name="$PROJECT_DIR$/app/views/system/Room" />
       <recent name="$PROJECT_DIR$/app/views/system/Reservation" />
-      <recent name="$PROJECT_DIR$/app/views/system/Employee" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/system/Dasboard" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -554,11 +737,22 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -581,45 +775,45 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2439394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.045075126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25742576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27887538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3426724" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25742576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2439394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34073442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -640,13 +834,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
@@ -664,223 +851,10 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/system/Dashboard/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Client/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="522">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9885497" vertical-offset="1836" max-vertical-offset="3600">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3939394" vertical-offset="0" max-vertical-offset="1404">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="486">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-54.74074" vertical-offset="5110" max-vertical-offset="6696">
-          <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28899083" vertical-offset="0" max-vertical-offset="6696">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46893787" vertical-offset="0" max-vertical-offset="1656">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system_layout/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8357143" vertical-offset="0" max-vertical-offset="684">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5689655" vertical-offset="0" max-vertical-offset="1656">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ReservationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.386059" vertical-offset="54" max-vertical-offset="1656">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Client/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1206">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Employee/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="641" max-vertical-offset="1206">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Reservation/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="641" max-vertical-offset="1206">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_25_224650_create_category_facility_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="702">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="414">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BookingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.0" vertical-offset="306" max-vertical-offset="1656">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Category/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="216">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.296296" vertical-offset="118" max-vertical-offset="1080">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.296297" vertical-offset="172" max-vertical-offset="810">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <marker date="1407523488933" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ClientController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/FacilityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0" vertical-offset="324" max-vertical-offset="1854">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="526">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/PaymentRoutine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="216">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_28_145532_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4074075" vertical-offset="250" max-vertical-offset="774">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/CategoryFacilities.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="342">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,25 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="468">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="36" max-vertical-offset="810">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_08_163639_create_facility_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31663325" vertical-offset="158" max-vertical-offset="684">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,19 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="342">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Category/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="360">
-          <caret line="85" column="12" selection-start-line="1" selection-start-column="4" selection-end-line="85" selection-end-column="12" />
-          <folding>
-            <element signature="tag#table#0;tag#div#0" expanded="false" />
-            <marker date="1410050345092" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410050345092" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,33 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4210527" vertical-offset="1608" max-vertical-offset="2754">
           <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="99" selection-end-column="31" />
-          <folding>
-            <marker date="1410046877360" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="702" max-vertical-offset="2196">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Room/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667" vertical-offset="594" max-vertical-offset="1224">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.385965" vertical-offset="197" max-vertical-offset="810">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,96 +897,360 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.88889" vertical-offset="66" max-vertical-offset="1944">
           <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Room.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Room/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="1026">
+          <caret line="47" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/system/assets/jquery-UI/external/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.333332" vertical-offset="0" max-vertical-offset="1188">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Dashboard/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4444447" vertical-offset="5820" max-vertical-offset="6156">
+          <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="252">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="162" max-vertical-offset="792">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.666667" vertical-offset="216" max-vertical-offset="810">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="270" max-vertical-offset="2196">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Category/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.333334" vertical-offset="594" max-vertical-offset="1872">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ReservationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/system/Room/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="1584">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state vertical-scroll-proportion="38.666668" vertical-offset="1188" max-vertical-offset="1602">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Room/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="540" max-vertical-offset="1224">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Client/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1111112" vertical-offset="366" max-vertical-offset="1080">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Client/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="363">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Booking/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1260">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ClientController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1980">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Client/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="792">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="810">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Client/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="1422">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+          <folding>
+            <marker date="1411240150987" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Booking/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1764">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Reservation/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1188">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Reservation/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1044">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Reservation/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="972">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1411373190484" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/Booking/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6296296" vertical-offset="1270" max-vertical-offset="1674">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding>
+            <marker date="1411373633252" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_08_163639_create_facility_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0" vertical-offset="108" max-vertical-offset="684">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="76.48148" vertical-offset="2065" max-vertical-offset="6696">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/User/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/system/assets/css/noty_theme_default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8181818" vertical-offset="33" max-vertical-offset="4410">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system_layout/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28915662" vertical-offset="162" max-vertical-offset="720">
+          <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/system/assets/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42672414" vertical-offset="0" max-vertical-offset="464">
+          <caret line="11" column="77072" selection-start-line="11" selection-start-column="77072" selection-end-line="11" selection-end-column="77072" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_11_233821_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="846">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="108" max-vertical-offset="486">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-200.0" vertical-offset="864" max-vertical-offset="6696">
+          <caret line="348" column="87" selection-start-line="348" selection-start-column="87" selection-end-line="348" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site_layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-232.0" vertical-offset="0" max-vertical-offset="6696">
+          <caret line="348" column="87" selection-start-line="348" selection-start-column="28" selection-end-line="348" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/system_layout/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.0" vertical-offset="270" max-vertical-offset="8010">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.6666666" vertical-offset="6524" max-vertical-offset="8046">
+          <caret line="368" column="66" selection-start-line="368" selection-start-column="66" selection-end-line="368" selection-end-column="66" />
           <folding>
-            <marker date="1410054884084" expanded="true" signature="2379:2497" placeholder="..." />
+            <marker date="1413080184380" expanded="true" signature="2596:2714" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Room/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.333334" vertical-offset="0" max-vertical-offset="1026">
-          <caret line="47" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="9" />
+        <state vertical-scroll-proportion="-12.592592" vertical-offset="434" max-vertical-offset="972">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/system/User/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="216" max-vertical-offset="1692">
+          <caret line="66" column="122" selection-start-line="66" selection-start-column="122" selection-end-line="66" selection-end-column="122" />
           <folding>
-            <marker date="1410053523076" expanded="false" signature="1617:1630" placeholder="..." />
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1413081270988" expanded="true" signature="4632:4744" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_25_222818_create_booking_table.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="162" max-vertical-offset="918">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="30" selection-end-column="39" />
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="1692">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Booking.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/BookingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="2052">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Dashboard/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8245616" vertical-offset="5230" max-vertical-offset="5724">
-          <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="378" max-vertical-offset="1620">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="378" max-vertical-offset="2286">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0" expanded="false" />
-            <element signature="e#6261#6308#0#HTML" expanded="true" />
+            <element signature="n#logout#0;n#MainController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Facility/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="648" max-vertical-offset="1188">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.37190083" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Booking/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.333332" vertical-offset="0" max-vertical-offset="1206">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/system/Booking/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29347825" vertical-offset="54" max-vertical-offset="1296">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <marker date="1410074461103" expanded="false" signature="2360:2373" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

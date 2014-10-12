@@ -21,6 +21,7 @@
                 <td>{{ RoomCategory::find($room->category_id)->category_name }}</td>
                 <td>
                 <span class="btn-group">
+                    <a class="btn btn-success btn-xs" title="reserve">reserve</a>
                     <a class="btn btn-warning btn-xs" title="edit ">edit</a>
                     <a class="btn btn-info btn-xs" title="view log">log</a>
                     <a class="btn btn-danger btn-xs" title="delete">delete</a>

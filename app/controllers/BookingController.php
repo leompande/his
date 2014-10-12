@@ -20,7 +20,17 @@ class BookingController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+        return View::make('system.Booking.add');
+	}
+
+    /**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
+	public function lists()
+	{
+        return View::make('system.Booking.list');
 	}
 
 
@@ -31,7 +41,19 @@ class BookingController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+        $string_cat = "";
+        foreach(Input::get("categories") as $cat){
+            $string_cat.=$cat."_";
+        }
+        $newBooking =   Booking::create(array(
+            'client_name' => Input::get("client_name"),
+            'client_email' => Input::get("client_email"),
+            'number_of_adults' => Input::get("number_of_adults"),
+            'number_kids' => Input::get("number_kids"),
+            'start_date' => Input::get("start_date"),
+            'end_date' => Input::get("end_date"),
+            'categories' => $string_cat
+        ));
 	}
 
 

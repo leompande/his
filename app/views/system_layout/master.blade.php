@@ -4,10 +4,10 @@
 
     <!-- start: Meta -->
     <meta charset="utf-8">
-    <title>SimpliQ - Flat & Responsive Bootstrap Admin Template</title>
-    <meta name="description" content="SimpliQ - Flat & Responsive Bootstrap Admin Template.">
-    <meta name="author" content="Łukasz Holeczek">
-    <meta name="keyword" content="SimpliQ, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <title>H.I.S - Hotel Management Information System.</title>
+    <meta name="description" content="H.I.S - Hotel Management Information System.">
+    <meta name="author" content="Leonard C. Mpande">
+    <meta name="keyword" content="H.I.S - Hotel Management Information System.">
     <!-- end: Meta -->
 
     <!-- start: Mobile Specific -->
@@ -20,6 +20,9 @@
     {{HTML::style("system/assets/css/retina.min.css")}}
     {{HTML::style("system/assets/css/font-awesome.min.css")}}
     {{HTML::style("font-awesome/css/font-awesome.css")}}
+    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.css")}}
+    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.structure.css")}}
+    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.theme.css")}}
     <!-- end: CSS -->
 
 
@@ -50,6 +53,7 @@
 
 <!--[if IE]>
 {{HTML::script("system/assets/js/jquery-1.11.0.min.js")}}
+{{HTML::script("system/assets/js/jquery-UI/jquery-ui.js")}}
 <![endif]-->
 
 <!--[if !IE]>-->
@@ -109,7 +113,7 @@
     <span class="icon-bar"></span>
 </button>
 <a id="main-menu-toggle" class="hidden-xs open"><i class="fa fa-bars"></i></a>
-<a class="navbar-brand col-lg-2 col-sm-1 col-xs-12" href="{{ url('system/dashboard') }}"><span>SimpliQ</span></a>
+<a class="navbar-brand col-lg-2 col-sm-1 col-xs-12" href="{{ url('system/dashboard') }}"><span>H.I.S</span></a>
 <!-- start: Header Menu -->
 <div class="nav-no-collapse header-nav">
 <ul class="nav navbar-nav pull-right">
@@ -362,7 +366,7 @@
         <div class="avatar"><img src="assets/img/avatar.jpg" alt="Avatar"></div>
         <div class="user">
             <span class="hello">Welcome!</span>
-            <span class="name">Łukasz Holeczek</span>
+            <span class="name"><b>{{ Auth::User()->username }}</b></span>
         </div>
     </a>
     <ul class="dropdown-menu">
@@ -370,9 +374,7 @@
 
         </li>
         <li><a href="index.html#"><i class="fa fa-user"></i> Profile</a></li>
-        <li><a href="index.html#"><i class="fa fa-cog"></i> Settings</a></li>
-        <li><a href="index.html#"><i class="fa fa-envelope"></i> Messages</a></li>
-        <li><a href="login.html"><i class="fa fa-off"></i> Logout</a></li>
+        <li><a href="{{ url("/logout") }}"><i class="fa fa-off"></i> Logout</a></li>
     </ul>
 </li>
 <!-- end: User Dropdown -->
@@ -425,11 +427,11 @@
     <div class="row">
 
         <div class="col-sm-5">
-            &copy; 2014 creativeLabs. <a href="http://bootstrapmaster.com">Admin Templates</a> by BootstrapMaster
+            &copy; 2014 his team.
         </div><!--/.col-->
 
         <div class="col-sm-7 text-right">
-            Powered by: <a href="http://bootstrapmaster.com/demo/simpliq/" alt="Bootstrap Admin Templates">SimpliQ Dashboard</a> | Based on Bootstrap 3.1.1 | Built with brix.io <a href="http://brix.io" alt="Brix.io - Interface Builder">Interface Builder</a>
+            Powered by: <a href="#" alt="his team">his team</a>
         </div><!--/.col-->
 
     </div><!--/.row-->

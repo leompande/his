@@ -19,14 +19,7 @@ class CreateBookingTable extends Migration {
             $table->string('number_of_adults');
             $table->string('number_kids');
             $table->string('client_email');
-            $table->integer('category_id_1');
-            $table->integer('category_count_1');
-            $table->integer('category_id_2');
-            $table->integer('category_count_2');
-            $table->integer('category_id_3');
-            $table->integer('category_count_3');
-            $table->integer('category_id_4');
-            $table->integer('category_count_4');
+            $table->string('categories');
             $table->string('start_date');
             $table->string('end_date');
             $table->timestamps();

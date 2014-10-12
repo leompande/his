@@ -20,7 +20,7 @@ class ReservationController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+        return View::make('system.Reservation.add');
 	}
 
 

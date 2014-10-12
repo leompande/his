@@ -346,7 +346,7 @@
                 <div class="span6">
                     <nav>
                         <ul>
-                            <li><a href="index.html#">Home</a></li>
+                            <li><a href="{{ url("login") }}">Login Into System</a></li>
                             <li><a href="index.html#">Room</a></li>
                             <li><a href="index.html#">Booking</a></li>
                             <li><a href="index.html#">News</a></li>
