@@ -22,18 +22,9 @@
                     </div>
                 </div>
                 <div class="box-content clearfix">
-                    <div class="row" >
-                        <div class="col-md-12" id="button_list">
-                            <span class="btn-group" >
-                                <a class="btn btn-info btn-xs"><b><i class="fa fa-list-ol"></i>&nbsp; all rooms</b></a>
-                                <a class="btn btn-success btn-xs"><b><i class="fa fa-list"></i>&nbsp; available rooms</b></a>
-                                <a class="btn btn-warning btn-xs"><b><i class="fa fa-list-ul"></i>&nbsp; booked rooms</b></a>
-                                <a class="btn btn-danger btn-xs"><b><i class="fa fa-th-list"></i>&nbsp; reserved rooms</b></a>
-                            </span>
-                        </div>
+                    <div class="row" id="employee_list">
+                    @include("system.Employee.list")
                     </div>
-                    <div class="row"></div>
-
                 </div>
             </div>
         </div><!--/col-->
@@ -47,11 +38,9 @@
                         <a href="ui-nestable-list.html#" class="btn-close"><i class="fa fa-times"></i></a>
                     </div>
                 </div>
-                <div class="box-content clearfix">
-
-
-                </div>
-
+                    <div class="box-content clearfix" id="employee_add">
+                    @include("system.Employee.add")
+                    </div>
             </div>
         </div>
     </div><!--/col-->

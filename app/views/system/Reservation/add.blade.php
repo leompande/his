@@ -8,7 +8,15 @@
             {{--</div>--}}
             <div class="form-group">
                 <label for="booking">Booking</label>
-                <select class="form-control" name="booking" id="booking" ></select>
+                <select class="form-control" name="booking" id="booking" >
+                <option disabled selected>-- select booking to reserve --</option>
+                @foreach(Booking::all() as $booking )
+                    @if($booking->id)
+
+                    @endif
+                <option>{{ $booking->client_name }} -- {{ $booking->start_date }}</option>
+                @endforeach
+                </select>
 
             </div>
 

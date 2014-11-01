@@ -27,7 +27,6 @@
                             <span class="btn-group" >
                                 <a class="btn btn-info btn-xs"><b><i class="fa fa-list-ol"></i>&nbsp; all rooms</b></a>
                                 <a class="btn btn-success btn-xs"><b><i class="fa fa-list"></i>&nbsp; available rooms</b></a>
-                                <a class="btn btn-warning btn-xs"><b><i class="fa fa-list-ul"></i>&nbsp; booked rooms</b></a>
                                 <a class="btn btn-danger btn-xs"><b><i class="fa fa-th-list"></i>&nbsp; reserved rooms</b></a>
                             </span>
                         </div>

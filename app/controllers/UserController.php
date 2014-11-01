@@ -13,25 +13,45 @@ class UserController extends \BaseController {
 	}
 
 
-	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
-	 */
-	public function create()
-	{
-		//
-	}
+    public function create()
+    {
+        return View::make('system.User.add');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return Response
+     */
+    public function lists()
+    {
+        return View::make('system.User.list');
+    }
 
 
-	/**
+    /**
 	 * Store a newly created resource in storage.
 	 *
 	 * @return Response
 	 */
 	public function store()
 	{
-		//
+
+       $user =  User::create(array(
+            'firstname'     => Input::get("firstname"),
+            'middlename'    => Input::get("middlename"),
+            'lastname'      => Input::get("lastname"),
+            'username'      => Input::get("username"),
+            'email'         => Input::get("email")
+
+        ));
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$user->id,
+            'model'=>"User",
+            'action'=>"create",
+        ));
 	}
 
 
@@ -55,7 +75,8 @@ class UserController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+        $user = User::find($id);
+        return View::make('system.User.edit',compact("user"));
 	}
 
 
@@ -65,9 +86,20 @@ class UserController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+        $user = User::find(Input::get("id"));
+        $user->username = Input::get("username");
+        $user->password = Input::get("password");
+        $user->save();
+        $user->push();
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$user->id,
+            'model'=>"User",
+            'action'=>"update",
+        ));
 	}
 
 
@@ -79,7 +111,15 @@ class UserController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+        $user = User::find($id);
+        User::destroy($id);
+
+        Log::create(array(
+            'user_id'  => Auth::User()->id,
+            'model_id' => $user->id,
+            'model'    => "User",
+            'action'   => "delete",
+        ));
 	}
 
 

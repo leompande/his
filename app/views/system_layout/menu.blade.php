@@ -13,7 +13,6 @@
                     <li><a class="submenu" href="{{ url('system/categories') }}"><i class="fa fa-asterisk "></i><span class="hidden-sm"> Categories</span></a></li>
                     <li><a class="submenu" href="{{ url('system/rooms') }}"><i class="fa fa-cube"></i><span class="hidden-sm"> Rooms</span></a></li>
                     <li><a class="submenu" href="{{ url('system/bookings') }}"><i class="fa fa-book"></i><span class="hidden-sm"> Bookings</span></a></li>
-                    <li><a class="submenu" href="{{ url('system/reservations') }}"><i class="fa fa-calendar-o"></i><span class="hidden-sm"> Reservations</span></a></li>
                     <li><a class="submenu" href="{{ url('system/clients') }}"><i class="fa fa-users"></i><span class="hidden-sm"> Clients</span></a></li>
                     <li><a class="submenu" href="{{ url('system/employees') }}"><i class="fa fa-user-md"></i><span class="hidden-sm"> Employees</span></a></li>
                     <li><a class="submenu" href="{{ url('system/users') }}"><i class="fa fa-user"></i><span class="hidden-sm"> Users</span></a></li>

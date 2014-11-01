@@ -12,7 +12,7 @@ class UserTableSeeder extends Seeder
             'lastname'  => 'mpande',
             'username' => 'Leo Mpande',
             'email'    => 'leo.august27@gmail.com',
-            'password' => 'mpande',
+            'password' => Hash::make('mpande'),
         ));
     }
 

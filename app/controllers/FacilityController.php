@@ -39,8 +39,15 @@ class FacilityController extends \BaseController {
 	 */
 	public function store()
 	{
-        Facility::create(array(
+        $facility = Facility::create(array(
             'facility' => Input::get("facility_name")
+        ));
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$facility->id,
+            'model'=>"Facility",
+            'action'=>"create",
         ));
 
 	}
@@ -66,7 +73,8 @@ class FacilityController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$facility = Facility::find($id);
+        return View::make('system.Facility.edit',compact("facility"));
 	}
 
 
@@ -76,9 +84,19 @@ class FacilityController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+        $facility = Facility::find(Input::get("id"));
+        $facility->facility = Input::get("facility");
+        $facility->save();
+        $facility->push();
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$facility->id,
+            'model'=>"Facility",
+            'action'=>"update",
+        ));
 	}
 
 
@@ -90,7 +108,15 @@ class FacilityController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+        $facility = Facility::find($id);
+        Facility::destroy($id);
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$facility->id,
+            'model'=>"Facility",
+            'action'=>"delete",
+        ));
 	}
 
 

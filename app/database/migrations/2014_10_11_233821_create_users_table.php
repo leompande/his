@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration {
             $table->string('middlename', 32);
             $table->string('lastname', 32);
             $table->string('username', 32);
-            $table->string('email', 320);
+            $table->string('email', 200)->unique();
             $table->string('password', 64);
 
             // required for Laravel 4.1.26

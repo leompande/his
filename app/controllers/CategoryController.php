@@ -42,9 +42,7 @@ class CategoryController extends \BaseController {
     {
 
 
-
-
-      $newCategory =   RoomCategory::create(array(
+      $Category =   RoomCategory::create(array(
             'category_name' => Input::get("category_name"),
             'size' => Input::get("size"),
             'bedrooms' => Input::get("beds"),
@@ -56,10 +54,15 @@ class CategoryController extends \BaseController {
 
         foreach(Input::get("facilities") as $value){
             DB::table('category_facilities')->insert(
-                array('category_id' => $newCategory->id, 'facility_id' =>$value)
+                array('category_id' => $Category->id, 'facility_id' =>$value)
             );
         }
-
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$Category->id,
+            'model'=>"Category",
+            'action'=>"create",
+        ));
 
     }
 
@@ -72,7 +75,18 @@ class CategoryController extends \BaseController {
      */
     public function show($id)
     {
-        //
+        $list="<ol>";
+        $id_array = explode("_",$id);
+        foreach($id_array as $single_id){
+            if($single_id == ""){
+
+            }else{
+                $category = RoomCategory::find($single_id);
+                $list.="<li>".$category['category_name']."</li>";
+            }
+        }
+        $list.="</ol>";
+        return $list;
     }
 
 
@@ -84,7 +98,8 @@ class CategoryController extends \BaseController {
      */
     public function edit($id)
     {
-        //
+        $category = RoomCategory::find($id);
+        return View::make('system.Category.edit',compact("category"));
     }
 
 
@@ -94,9 +109,32 @@ class CategoryController extends \BaseController {
      * @param  int  $id
      * @return Response
      */
-    public function update($id)
+    public function update()
     {
-        //
+
+        $Category =   RoomCategory::find(Input::get("id"));
+        $Category->category_name = Input::get("category_name");
+        $Category->size = Input::get("size");
+        $Category->bedrooms = Input::get("bedrooms");
+        $Category->location = Input::get("location");
+        $Category->price = Input::get("price");
+        $Category->save();
+        $Category->push();
+
+
+
+        foreach(Input::get("facilities") as $value){
+            DB::table('category_facilities')
+                ->where('category_id',Input::get("id"))
+                ->update(array('facility_id' => $value));
+        }
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$Category->id,
+            'model'=>"Category",
+            'action'=>"update",
+        ));
     }
 
 
@@ -108,7 +146,15 @@ class CategoryController extends \BaseController {
      */
     public function destroy($id)
     {
-        //
+        $category = RoomCategory::find($id);
+        RoomCategory::destroy($id);
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$category->id,
+            'model'=>"Category",
+            'action'=>"delete",
+        ));
     }
 
 

@@ -39,7 +39,7 @@
                         <a href="ui-nestable-list.html#" class="btn-close"><i class="fa fa-times"></i></a>
                     </div>
                 </div>
-                <div class="box-content clearfix" id="facility_add">
+                <div class="box-content clearfix" id="category_add">
 
                     @include('system.Category.add')
 

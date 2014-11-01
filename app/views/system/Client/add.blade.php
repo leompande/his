@@ -32,11 +32,6 @@
                     <option value="international">International</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="country">Country</label>
-                <select type="text" class="form-control" name="country" id="country" ></select>
-            </div>
-
             <button type="submit" class="btn btn-default">Register</button><div class="output"></div>
         </form>
     </div>
@@ -45,8 +40,6 @@
 <script>
    $(document).ready(function(){
    //hide country
-       $("#country").parent().hide();
-
 
         $("#client_form").on('submit',function(e){
             e.preventDefault();

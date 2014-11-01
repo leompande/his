@@ -9,6 +9,4 @@
 class Booking extends  Eloquent {
     protected $table = 'bookings';
     protected $guarded = array('id');
-
-
 } 

@@ -22,6 +22,7 @@ class CreateBookingTable extends Migration {
             $table->string('categories');
             $table->string('start_date');
             $table->string('end_date');
+            $table->boolean('is_reserved')->default(0);
             $table->timestamps();
         });
 	}

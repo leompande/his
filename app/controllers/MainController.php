@@ -29,14 +29,23 @@ class MainController extends \BaseController {
 
         // if the validator fails, redirect back to the form
         if ($validator->fails()) {
-            return Redirect::to('login')
-                ->with('flash_error', $validator)
-                ->withInput(Input::except('password')); // send back the input (not the password) so that we can repopulate the form
+            return Redirect::to('login');
+//                ->withErrors('flash_error', $validator)
+//                ->withInput(Input::except('password')); // send back the input (not the password) so that we can repopulate the form
         } else {
 
-            if (!Auth::attempt($rules)) {
-                return Redirect::route('system')
-                    ->with('flash_notice', 'You are successfully logged in.');
+            if (Auth::attempt(array(
+                'email' => Input::get('email'),
+                'password' => Input::get('password')
+            ))) {
+                Log::create(array(
+                    'user_id'=>Auth::User()->id,
+                    'model_id'=>Auth::User()->id,
+                    'model'=>"User",
+                    'action'=>"login",
+                ));
+                return Redirect::route('system')->with("frash_message","Your successfully loged in");
+
             }
 
             // authentication failure! lets go back to the login page
@@ -48,8 +57,6 @@ class MainController extends \BaseController {
 	}
     public function logout()
     {
-        Auth::logout(); // log the user out of our application
-        return Redirect::to('login'); // redirect the user to the login scre
     }
 
 	/**
@@ -116,9 +123,10 @@ class MainController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-		//
+        Auth::logout(); // log the user out of our application
+        return Redirect::to('login'); // redirect the user to the login scre
 	}
 
 

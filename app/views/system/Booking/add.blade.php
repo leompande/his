@@ -23,10 +23,15 @@ $(function() {
 </script>
 <div class="row">
     <div class="col-md-12">
-        <form role="form" id="booking_form">
+        <form role="form" id="booking_form" >
            <div class="form-group">
                <label for="client">Client</label>
-               <select class="form-control" name="client" id="client" ></select><a class="btn btn-mini btn-primary">add client</a>
+               <select class="form-control" name="client" id="client" >
+               @foreach (Client::all() as $client)
+               <option value="{{ $client->firstname }} {{ $client->middlename }} {{ $client->lastname }}_{{ $client->email }}">{{ $client->firstname }} {{ $client->middlename }} {{ $client->lastname }}</option>
+               @endforeach
+               </select>
+               <a class="btn btn-mini btn-primary">add client</a>
            </div>
             <div class="form-group">
                 <label for="reg_no">Number Of Adults</label>
@@ -53,7 +58,7 @@ $(function() {
               <div class="form-group">
                              <label for="room_phone_no">End Date</label>
                              <input type="text" class="form-control datepicker2" name="end_date" id="enddate" >
-                         </div>
+              </div>
 
             <button type="submit" class="btn btn-default">Register</button><div class="output"></div>
         </form>
@@ -62,7 +67,7 @@ $(function() {
 
 <script>
    $(document).ready(function(){
-        $("#booking_form").on('submit',function(e){
+        $("form#booking_form").on('submit',function(e){
             e.preventDefault();
             $(".output").html("<h4 ><i class='fa fa-spinner fa-spin'></i> registering booking wait ...</h4>");
             var formValues = $(this).serialize();
@@ -72,7 +77,7 @@ $(function() {
                 data: formValues,
                 success: whenSucceed
             });
-
+        alert(formValues);
         });
 
 

@@ -41,14 +41,21 @@ class ClientController extends \BaseController {
 	public function store()
 	{
 
-            Client::create(array(
+          $client =  Client::create(array(
             'firstname' => Input::get("firstname"),
             'middlename' => Input::get("middlename"),
-            'lastname' => Input::get("email"),
+            'lastname' => Input::get("lastname"),
             'email' => Input::get("email"),
             'phone' => Input::get("phone"),
             'nationality' => Input::get("nationality")
 
+        ));
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$client->id,
+            'model'=>"Client",
+            'action'=>"create",
         ));
 	}
 
@@ -72,8 +79,8 @@ class ClientController extends \BaseController {
 	 * @return Response
 	 */
 	public function edit($id)
-	{
-		//
+	{   $client = Client::find($id);
+        return View::make('system.Client.edit',compact("client"));
 	}
 
 
@@ -83,9 +90,21 @@ class ClientController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+        $client = Client::find(Input::get("id"));
+        $client->firstname = Input::get("firstname");
+        $client->middlename = Input::get("middlename");
+        $client->lastname = Input::get("lastname");
+        $client->save();
+        $client->push();
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$client->id,
+            'model'=>"Client",
+            'action'=>"update",
+        ));
 	}
 
 
@@ -97,7 +116,15 @@ class ClientController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+        $client = Client::find($id);
+        Client::destroy($id);
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$client->id,
+            'model'=>"Client",
+            'action'=>"delete",
+        ));
 	}
 
 

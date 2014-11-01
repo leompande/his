@@ -20,9 +20,9 @@
     {{HTML::style("system/assets/css/retina.min.css")}}
     {{HTML::style("system/assets/css/font-awesome.min.css")}}
     {{HTML::style("font-awesome/css/font-awesome.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.structure.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.theme.css")}}
+    {{HTML::style("system/assets/jquery-UI/jquery-ui.css")}}
+    {{HTML::style("system/assets/jquery-UI/jquery-ui.structure.css")}}
+    {{HTML::style("system/assets/jquery-UI/jquery-ui.theme.css")}}
     <!-- end: CSS -->
 
 
@@ -52,7 +52,7 @@
 
 
 <!--[if IE]>
-{{HTML::script("system/assets/js/jquery-1.11.0.min.js")}}
+<!--{{HTML::script("system/assets/js/jquery-1.11.0.min.js")}}-->
 {{HTML::script("system/assets/js/jquery-UI/jquery-ui.js")}}
 <![endif]-->
 
@@ -83,11 +83,11 @@
 {{HTML::script("system/assets/js/jquery.sparkline.min.js")}}
 {{HTML::script("system/assets/js/fullcalendar.min.js")}}
 {{HTML::script("system/assets/js/excanvas.min.js")}}
-{{HTML::script("system/assets/js/jquery.flot.min.js")}}
-{{HTML::script("system/assets/js/jquery.flot.pie.min.js")}}
-{{HTML::script("system/assets/js/jquery.flot.stack.min.js")}}
-{{HTML::script("system/assets/js/jquery.flot.resize.min.js")}}
-{{HTML::script("system/assets/js/jquery.flot.time.min.js")}}
+{{--{{HTML::script("system/assets/js/jquery.flot.min.js")}}--}}
+{{--{{HTML::script("system/assets/js/jquery.flot.pie.min.js")}}--}}
+{{--{{HTML::script("system/assets/js/jquery.flot.stack.min.js")}}--}}
+{{--{{HTML::script("system/assets/js/jquery.flot.resize.min.js")}}--}}
+{{--{{HTML::script("system/assets/js/jquery.flot.time.min.js")}}--}}
 {{HTML::script("system/assets/js/jquery.autosize.min.js")}}
 {{HTML::script("system/assets/js/jquery.placeholder.min.js")}}
 
@@ -95,12 +95,17 @@
 {{HTML::script("system/assets/js/custom.min.js")}}
 {{HTML::script("system/assets/js/core.min.js")}}
 <!-- inline scripts related to this page -->
-{{HTML::script("system/assets/js/pages/index.js")}}
+{{--{{HTML::script("system/assets/js/pages/index.js")}}--}}
 
 {{HTML::script("system/assets/js/jquery.dataTables.min.js")}}
 {{HTML::script("system/assets/js/dataTables.bootstrap.min.js")}}
 {{HTML::script("system/assets/js/jquery-picklist.js")}}
 <!--{{HTML::script("system/assets/js/jquery.ui.widget.js")}}-->
+{{--{{HTML::script("system/assets/js/highcharts-all.js")}}--}}
+{{--{{HTML::script("system/assets/js/highcharts.js")}}--}}
+<script src="http://code.highcharts.com/highcharts.js"></script>
+{{HTML::script("system/assets/js/sand-signika.js")}}
+
 <!-- end: JavaScript-->
 
 
@@ -271,77 +276,13 @@
         </li>
         <li>
             <a href="index.html#">
-                <span class="avatar"><img src="assets/img/avatar.jpg" alt="Avatar"></span>
+                <span class="avatar"><i class="fa fa-user fa-2x"></i></span>
 									<span class="header">
 										<span class="from">
-									    	Łukasz Holeczek
+									    	{{ Auth::User()->username }}
 									     </span>
 										<span class="time">
 									    	6 min
-									    </span>
-									</span>
-                                    <span class="message">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                    </span>
-            </a>
-        </li>
-        <li>
-            <a href="index.html#">
-                <span class="avatar"><img src="assets/img/avatar2.jpg" alt="Avatar"></span>
-									<span class="header">
-										<span class="from">
-									    	Megan Abott
-									     </span>
-										<span class="time">
-									    	56 min
-									    </span>
-									</span>
-                                    <span class="message">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                    </span>
-            </a>
-        </li>
-        <li>
-            <a href="index.html#">
-                <span class="avatar"><img src="assets/img/avatar3.jpg" alt="Avatar"></span>
-									<span class="header">
-										<span class="from">
-									    	Kate Ross
-									     </span>
-										<span class="time">
-									    	3 hours
-									    </span>
-									</span>
-                                    <span class="message">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                    </span>
-            </a>
-        </li>
-        <li>
-            <a href="index.html#">
-                <span class="avatar"><img src="assets/img/avatar4.jpg" alt="Avatar"></span>
-									<span class="header">
-										<span class="from">
-									    	Julie Blank
-									     </span>
-										<span class="time">
-									    	yesterday
-									    </span>
-									</span>
-                                    <span class="message">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                    </span>
-            </a>
-        </li>
-        <li>
-            <a href="index.html#">
-                <span class="avatar"><img src="assets/img/avatar5.jpg" alt="Avatar"></span>
-									<span class="header">
-										<span class="from">
-									    	Jane Sanders
-									     </span>
-										<span class="time">
-									    	Jul 25, 2012
 									    </span>
 									</span>
                                     <span class="message">
@@ -355,15 +296,11 @@
     </ul>
 </li>
 <!-- end: Message Dropdown -->
-<li>
-    <a class="btn" href="index.html#">
-        <i class="fa fa-wrench"></i>
-    </a>
-</li>
+
 <!-- start: User Dropdown -->
 <li class="dropdown">
     <a class="btn account dropdown-toggle" data-toggle="dropdown" href="index.html#">
-        <div class="avatar"><img src="assets/img/avatar.jpg" alt="Avatar"></div>
+        <div class="avatar"><i class="fa fa-user fa-2x"></i></div>
         <div class="user">
             <span class="hello">Welcome!</span>
             <span class="name"><b>{{ Auth::User()->username }}</b></span>
@@ -387,6 +324,7 @@
 <!-- end: Header -->
 
 <div class="container">
+
 <div class="row">
 
 <!-- start: Main Menu -->
@@ -413,8 +351,8 @@
                 <p>Here settings can be configured...</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-default close_modal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary save_changes" >Save changes</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -437,6 +375,6 @@
     </div><!--/.row-->
 
 </footer>
-
+{{HTML::script("system/assets/js/statistics.js")}}
 </body>
 </html>
