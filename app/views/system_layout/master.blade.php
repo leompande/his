@@ -15,31 +15,33 @@
     <!-- end: Mobile Specific -->
 
     <!-- start: CSS -->
-    {{HTML::style("system/assets/css/bootstrap.min.css")}}
-    {{HTML::style("system/assets/css/style.min.css")}}
-    {{HTML::style("system/assets/css/retina.min.css")}}
-    {{HTML::style("system/assets/css/font-awesome.min.css")}}
-    {{HTML::style("font-awesome/css/font-awesome.css")}}
-    {{HTML::style("system/assets/jquery-UI/jquery-ui.css")}}
-    {{HTML::style("system/assets/jquery-UI/jquery-ui.structure.css")}}
-    {{HTML::style("system/assets/jquery-UI/jquery-ui.theme.css")}}
+    {{HTML::style("public/system/assets/css/bootstrap.min.css")}}
+    {{HTML::style("public/system/assets/css/style.min.css")}}
+    {{HTML::style("public/system/assets/css/retina.min.css")}}
+    {{HTML::style("public/font-awesome/css/font-awesome.min.css")}}
+    {{HTML::style("public/font-awesome/css/font-awesome.css")}}
+    {{HTML::style("public/system/assets/jquery-UI/jquery-ui.css")}}
+    {{HTML::style("public/system/assets/jquery-UI/jquery-ui.structure.css")}}
+    {{HTML::style("public/system/assets/jquery-UI/jquery-ui.theme.css")}}
     <!-- end: CSS -->
-
+    {{HTML::style("public/system/assets/css/jquery-ui.css")}}
+    {{HTML::style("public/css/jquery.multiselect.css")}}
+    {{HTML::style("public/css/jquery.multiselect.filter.css")}}
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    {{HTML::script("http://html5shim.googlecode.com/svn/trunk/html5.js")}}
-    {{HTML::script("system/assets/js/respond.min.js")}}
-    {{HTML::style("system/assets/css/ie6-8.css")}}
+    {{HTML::script("public/system/assets/js/html5.js")}}
+    {{HTML::script("public/system/assets/js/respond.min.js")}}
+    {{HTML::style("public/system/assets/css/ie6-8.css")}}
 
     <![endif]-->
 
     <!-- start: Favicon and Touch Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('system/assets/ico/apple-touch-icon-144-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ URL::asset('system/assets/ico/apple-touch-icon-114-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('system/assets/ico/apple-touch-icon-72-precomposed.png') }}">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ URL::asset('system/assets/ico/apple-touch-icon-57-precomposed.png') }}">
-    <link rel="shortcut icon" href="system/assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('public/system/assets/ico/apple-touch-icon-144-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ URL::asset('public/system/assets/ico/apple-touch-icon-114-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('public/system/assets/ico/apple-touch-icon-72-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ URL::asset('public/system/assets/ico/apple-touch-icon-57-precomposed.png') }}">
+    <link rel="shortcut icon" href="public/system/assets/ico/favicon.png">
     <!-- end: Favicon and Touch Icons -->
 
 </head>
@@ -48,18 +50,18 @@
 
 <!-- start: JavaScript-->
 <!--[if !IE]>-->
-{{HTML::script("system/assets/js/jquery-2.1.0.min.js")}}
+{{HTML::script("public/system/assets/js/jquery-2.1.0.min.js")}}
 
 
 <!--[if IE]>
-<!--{{HTML::script("system/assets/js/jquery-1.11.0.min.js")}}-->
-{{HTML::script("system/assets/js/jquery-UI/jquery-ui.js")}}
+<!--{{HTML::script("public/system/assets/js/jquery-1.11.0.min.js")}}-->
+{{HTML::script("public/system/assets/js/jquery-UI/jquery-ui.js")}}
 <![endif]-->
 
 <!--[if !IE]>-->
 
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='system/assets/js/jquery-2.1.0.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='public/system/assets/js/jquery-2.1.0.min.js'>"+"<"+"/script>");
 </script>
 
 <!--<![endif]-->
@@ -67,47 +69,49 @@
 <!--[if IE]>
 
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='system/assets/js/jquery-1.11.0.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='public/system/assets/js/jquery-1.11.0.min.js'>"+"<"+"/script>");
 </script>
 
 <![endif]-->
-{{HTML::script("system/assets/js/jquery-migrate-1.2.1.min.js")}}
-{{HTML::script("system/assets/js/bootstrap.min.js")}}
+{{HTML::script("public/system/assets/js/jquery-migrate-1.2.1.min.js")}}
+{{HTML::script("public/system/assets/js/bootstrap.min.js")}}
 
 <!--<![endif]-->
 
 
 <!-- page scripts -->
-{{HTML::script("system/assets/js/jquery-ui-1.10.3.custom.min.js")}}
-{{HTML::script("system/assets/js/jquery.ui.touch-punch.min.js")}}
-{{HTML::script("system/assets/js/jquery.sparkline.min.js")}}
-{{HTML::script("system/assets/js/fullcalendar.min.js")}}
-{{HTML::script("system/assets/js/excanvas.min.js")}}
-{{--{{HTML::script("system/assets/js/jquery.flot.min.js")}}--}}
-{{--{{HTML::script("system/assets/js/jquery.flot.pie.min.js")}}--}}
-{{--{{HTML::script("system/assets/js/jquery.flot.stack.min.js")}}--}}
-{{--{{HTML::script("system/assets/js/jquery.flot.resize.min.js")}}--}}
-{{--{{HTML::script("system/assets/js/jquery.flot.time.min.js")}}--}}
-{{HTML::script("system/assets/js/jquery.autosize.min.js")}}
-{{HTML::script("system/assets/js/jquery.placeholder.min.js")}}
+{{HTML::script("public/system/assets/js/jquery-ui-1.10.3.custom.min.js")}}
+{{HTML::script("public/system/assets/js/jquery.ui.touch-punch.min.js")}}
+{{HTML::script("public/system/assets/js/jquery.sparkline.min.js")}}
+{{HTML::script("public/system/assets/js/fullcalendar.min.js")}}
+{{HTML::script("public/system/assets/js/excanvas.min.js")}}
+{{--{{HTML::script("public/system/assets/js/jquery.flot.min.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/jquery.flot.pie.min.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/jquery.flot.stack.min.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/jquery.flot.resize.min.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/jquery.flot.time.min.js")}}--}}
+{{HTML::script("public/system/assets/js/jquery.autosize.min.js")}}
+{{HTML::script("public/system/assets/js/jquery.placeholder.min.js")}}
 
 <!-- theme scripts -->
-{{HTML::script("system/assets/js/custom.min.js")}}
-{{HTML::script("system/assets/js/core.min.js")}}
+{{HTML::script("public/system/assets/js/custom.min.js")}}
+{{HTML::script("public/system/assets/js/core.min.js")}}
 <!-- inline scripts related to this page -->
-{{--{{HTML::script("system/assets/js/pages/index.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/pages/index.js")}}--}}
 
-{{HTML::script("system/assets/js/jquery.dataTables.min.js")}}
-{{HTML::script("system/assets/js/dataTables.bootstrap.min.js")}}
-{{HTML::script("system/assets/js/jquery-picklist.js")}}
-<!--{{HTML::script("system/assets/js/jquery.ui.widget.js")}}-->
-{{--{{HTML::script("system/assets/js/highcharts-all.js")}}--}}
-{{--{{HTML::script("system/assets/js/highcharts.js")}}--}}
-<script src="http://code.highcharts.com/highcharts.js"></script>
-{{HTML::script("system/assets/js/sand-signika.js")}}
-
+{{HTML::script("public/system/assets/js/jquery.dataTables.min.js")}}
+{{HTML::script("public/system/assets/js/dataTables.bootstrap.min.js")}}
+{{HTML::script("public/system/assets/js/jquery-picklist.js")}}
+<!--{{HTML::script("public/system/assets/js/jquery.ui.widget.js")}}-->
+{{--{{HTML::script("public/system/assets/js/highcharts-all.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/highcharts.js")}}--}}
+{{--{{HTML::script("public/system/assets/js/sand-signika.js")}}--}}
+{{HTML::script("public/system/assets/js/highcharts.js")}}
+{{--{{HTML::script("public/system/assets/js/highcharts-all.js")}}--}}
 <!-- end: JavaScript-->
-
+{{HTML::script("public/system/assets/js/jquery-ui.min.js")}}
+{{HTML::script("public/system/assets/js/jquery.multiselect.js")}}
+{{HTML::script("public/system/assets/js/jquery.multiselect.filter.js")}}
 
 <!-- start: Header -->
 <header class="navbar">
@@ -216,19 +220,19 @@
         </li>
         <li>
             <a href="index.html#">
-									<span class="header">
-										<span class="title">iOS Development</span>
-										<span class="percent"></span>
-									</span>
+				<span class="header">
+					<span class="title">iOS Development</span>
+					<span class="percent"></span>
+				</span>
                 <div class="taskProgress progressSlim progressBlue">80</div>
             </a>
         </li>
         <li>
             <a href="index.html#">
-									<span class="header">
-										<span class="title">Android Development</span>
-										<span class="percent"></span>
-									</span>
+				<span class="header">
+					<span class="title">Android Development</span>
+					<span class="percent"></span>
+				</span>
                 <div class="taskProgress progressSlim progressYellow">47</div>
             </a>
         </li>
@@ -375,6 +379,7 @@
     </div><!--/.row-->
 
 </footer>
-{{HTML::script("system/assets/js/statistics.js")}}
+{{HTML::script("public/system/assets/js/statistics.js")}}
+{{HTML::script("public/system/assets/js/reportscript.js")}}
 </body>
 </html>

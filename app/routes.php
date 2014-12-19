@@ -21,6 +21,7 @@ Route::get('/fullLogs/{id}', array('as' => 'fullLogs', 'uses' => 'LogsController
 
 Route::get('/system', array('as' => 'system', 'uses' => 'DashboardController@index'))->before('auth');
 Route::get('/system/dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'))->before('auth');
+Route::get('/system/chart', array('as' => 'chart', 'uses' => 'DashboardController@chartQuery'));
 
 //category module routes
 Route::get('/system/categories',array('as' => 'categories', 'uses' =>  'CategoryController@index'))->before('auth');
@@ -50,6 +51,8 @@ Route::post('/system/rooms/store', 'RoomController@store');
 Route::get('room/edit/{id}', 'RoomController@edit');
 Route::post('/system/room/update', 'RoomController@update');
 Route::get('rooms/delete/{id}', 'RoomController@destroy');
+Route::get('rooms/roomreserve/{id}', 'RoomController@reserve');
+Route::post('/system/rooms/addreserve', 'RoomController@addreserve');
 
 
 Route::get('/system/employees', 'EmployeeController@index')->before('auth');
@@ -84,7 +87,6 @@ Route::get('booking/edit/{id}', 'BookingController@edit');
 Route::get('/system/booking/update', 'BookingController@update');
 Route::get('bookings/delete/{id}', 'BookingController@destroy');
 Route::get('bookings/reserve/{id}', 'BookingController@reserve');
-Route::get('bookings/reserve/{id}', 'BookingController@reserve');
 Route::post('/system/bookings/addreserve', 'BookingController@addreserve');
 
 Route::get('/system/users', 'UserController@index')->before('auth');
@@ -94,3 +96,19 @@ Route::get('user/edit/{id}', 'UserController@edit');
 Route::post('/system/user/update', 'UserController@update');
 Route::get('user/delete/{id}', 'UserController@destroy');
 Route::post('/system/user/store', 'UserController@store');
+
+
+Route::get('/system/report', 'ReportController@index')->before('auth');
+Route::get('/system/report/roomview', 'ReportController@roomview');
+Route::get('/system/report/generalview', 'ReportController@generalview');
+Route::get('/system/report/reservationview', 'ReportController@reservationview');
+
+
+
+Route::get('/system/services', 'ServiceController@index');
+Route::get('services/list', 'ServiceController@lists');
+Route::get('services/add', 'ServiceController@create');
+Route::post('/system/services/store', 'ServiceController@store');
+Route::get('services/edit/{id}', 'ServiceController@edit');
+Route::post('services/update/{id}', 'ServiceController@update');
+Route::get('services/delete/{id}', 'ServiceController@delete');

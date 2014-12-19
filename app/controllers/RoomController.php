@@ -20,6 +20,8 @@ class RoomController extends \BaseController {
 	 */
 	public function lists()
 	{
+//
+//
         return View::make('system.Room.list');
 	}
 
@@ -81,6 +83,50 @@ class RoomController extends \BaseController {
         return View::make('system.Room.edit',compact("room"));
     }
 
+
+    public function reserve($id){
+        $room = Room::find($id);
+        $bookings = Booking::all();
+        $bookingArray = Array();
+        $booksCounter = 0;
+        foreach($bookings as $booking){
+            $cat_array = explode("_",$booking->categories);
+            if(in_array($room->category_id,$cat_array)){
+                $bookingArray[$booksCounter] = $booking;
+                $booksCounter++;
+            }
+        }
+
+
+        return View::make('system.Room.reserve',compact(array("bookingArray","room")));
+    }
+
+    public function addreserve()
+    {
+        $data = Input::get("data");
+        $dataArray   = explode("_",$data);
+        $booking_id  = $dataArray[0];
+        $room_id     = $dataArray[1];
+
+        $booking       = Booking::find($booking_id);
+        $booking->is_reserved = 1;
+        $booking->save();
+        $booking->push();
+
+        RoomStatus::create(array(
+            'room_id' =>$room_id,
+            'status_id' => "reserved",
+            'dateregistered' => $booking->end_date,
+        ));
+
+        Log::create(array(
+            'user_id'=>Auth::User()->id,
+            'model_id'=>$room_id,
+            'model'=>"Room",
+            'action'=>"reserve",
+        ));
+
+    }
 
     /**
      * Update the specified resource in storage.

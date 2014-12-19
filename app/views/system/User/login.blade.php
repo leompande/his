@@ -15,20 +15,20 @@
     <!-- end: Mobile Specific -->
 
     <!-- start: CSS -->
-    {{HTML::style("system/assets/css/bootstrap.min.css")}}
-    {{HTML::style("system/assets/css/style.min.css")}}
-    {{HTML::style("system/assets/css/retina.min.css")}}
-    {{HTML::style("system/assets/css/font-awesome.min.css")}}
-    {{HTML::style("font-awesome/css/font-awesome.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.structure.css")}}
-    {{HTML::style("system/assets/js/jquery-UI/jquery-ui.theme.css")}}
+    {{HTML::style("public/system/assets/css/bootstrap.min.css")}}
+    {{HTML::style("public/system/assets/css/style.min.css")}}
+    {{HTML::style("public/system/assets/css/retina.min.css")}}
+    {{HTML::style("public/system/assets/css/font-awesome.min.css")}}
+    {{HTML::style("public/font-awesome/css/font-awesome.css")}}
+    {{HTML::style("public/system/assets/js/jquery-UI/jquery-ui.css")}}
+    {{HTML::style("public/system/assets/js/jquery-UI/jquery-ui.structure.css")}}
+    {{HTML::style("public/system/assets/js/jquery-UI/jquery-ui.theme.css")}}
     <!-- end: CSS -->
 
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    {{HTML::script("http://html5shim.googlecode.com/svn/trunk/html5.js")}}
+    {{HTML::script("system/assets/js/html5.js")}}
     {{HTML::script("system/assets/js/respond.min.js")}}
     {{HTML::style("system/assets/css/ie6-8.css")}}
 

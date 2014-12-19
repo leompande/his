@@ -1,105 +1,65 @@
 $(document).ready(function(){
-//    Highcharts.theme = {
-//        colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572',
-//            '#FF9655', '#FFF263', '#6AF9C4'],
-//        chart: {
-//            backgroundColor: {
-//                linearGradient: [0, 0, 500, 500],
-//                stops: [
-//                    [0, 'rgb(255, 255, 255)'],
-//                    [1, 'rgb(240, 240, 255)']
-//                ]
-//            },
-//        },
-//        title: {
-//            style: {
-//                color: '#000',
-//                font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
-//            }
-//        },
-//        subtitle: {
-//            style: {
-//                color: '#666666',
-//                font: 'bold 12px "Trebuchet MS", Verdana, sans-serif'
-//            }
-//        },
-//
-//        legend: {
-//            itemStyle: {
-//                font: '9pt Trebuchet MS, Verdana, sans-serif',
-//                color: 'black'
-//            },
-//            itemHoverStyle:{
-//                color: 'gray'
-//            }
-//        }
-//    };
-//
-//// Apply the theme
-//    Highcharts.setOptions(Highcharts.theme);
-    //Highcharts.setOptions({
-    //    chart: {
-    //        backgroundColor: {
-    //            linearGradient: [0, 0, 500, 500],
-    //            stops: [
-    //                [0, 'rgb(255, 255, 255)'],
-    //                [1, 'rgb(240, 240, 255)']
-    //            ]
-    //        },
-    //        borderWidth: 0,
-    //        plotBackgroundColor: 'rgba(255, 255, 255, .9)',
-    //        plotShadow: true,
-    //        plotBorderWidth: 1
-    //    }
-    //});
+    $.ajax({
+        type: "GET",
+        url: 'chart',
+        success:function(data){
+            $('#main-chart').highcharts({
 
-    $('#main-chart').highcharts({
-
-        chart: {
-            type: 'column'
-        },
-        title: {
-            text: 'Yearly  Statistics (Customer Arrival, Bookings and Reservations)'
-        },
-        xAxis: {
-            categories: [
-                'Jan', 'Feb', 'March',
-                'April', 'May', 'June',
-                'July', 'Aug', 'Sept',
-                'Oct', 'Nov', 'Dec'
-            ]
-        },
-        yAxis: {
-            title: {
-                text: 'Total '
-            }
-        },
-        series: [
-            {
-            name: 'Customer Arrival',
-            data: [
-                1, 0, 4,
-                1, 0, 4,
-                1, 0, 4,
-                1, 0, 4
-            ]
-        }, {
-            name: 'Bookings',
-            data: [
-                11, 7, 3,
-                5, 1, 3,
-                9, 7, 3,
-                3, 5, 3
-            ]
-        }, {
-            name: 'Reservations',
-            data: [
-                5, 5, 6,
-                5, 7, 1,
-                5, 4, 12,
-                5, 1, 8
-            ]
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Yearly  Statistics (Customer Arrival, Bookings and Reservations)'
+                },
+                xAxis: {
+                    categories: [
+                        'Jan', 'Feb', 'March',
+                        'April', 'May', 'June',
+                        'July', 'Aug', 'Sept',
+                        'Oct', 'Nov', 'Dec'
+                    ]
+                },
+                yAxis: {
+                    title: {
+                        text: 'Total '
+                    }
+                },
+                series: [
+                    {
+                        name: 'Customer Arrival',
+                        data: [
+                            parseInt(data.customerarrival.Jan), parseInt(data.customerarrival.Feb),
+                            parseInt(data.customerarrival.March),parseInt(data.customerarrival.April),
+                            parseInt(data.customerarrival.May),parseInt(data.customerarrival.June),
+                            parseInt(data.customerarrival.July),parseInt(data.customerarrival.Aug),
+                            parseInt(data.customerarrival.Sept),parseInt(data.customerarrival.Oct),
+                            parseInt(data.customerarrival.Nov),parseInt(data.customerarrival.Dec)
+                        ]
+                    }, {
+                        name: 'Bookings',
+                        data: [
+                            parseInt(data.bookings.Jan), parseInt(data.bookings.Feb),
+                            parseInt(data.bookings.March),parseInt(data.bookings.April),
+                            parseInt(data.bookings.May),parseInt(data.bookings.June),
+                            parseInt(data.bookings.July),parseInt(data.bookings.Aug),
+                            parseInt(data.bookings.Sept),parseInt(data.bookings.Oct),
+                            parseInt(data.bookings.Nov),parseInt(data.bookings.Dec)
+                        ]
+                    }, {
+                        name: 'Reservations',
+                        data: [
+                            parseInt(data.reservations.Jan), parseInt(data.reservations.Feb),
+                            parseInt(data.reservations.March),parseInt(data.reservations.April),
+                            parseInt(data.reservations.May),parseInt(data.reservations.June),
+                            parseInt(data.reservations.July),parseInt(data.reservations.Aug),
+                            parseInt(data.reservations.Sept),parseInt(data.reservations.Oct),
+                            parseInt(data.reservations.Nov),parseInt(data.reservations.Dec)
+                        ]
+                    }
+                ]
+            });
         }
-        ]
     });
+
+
 });

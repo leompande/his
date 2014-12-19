@@ -11,63 +11,56 @@
 
     <div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="smallstat box">
-            {{--<div class="boxchart-overlay blue">--}}
             <i class="fa fa-puzzle-piece lightBlue"></i>
-                {{--<div class="boxchart">5,6,7,2,0,4,2,4,8,2,3,3,2</div>--}}
-            {{--</div>--}}
             <span class="title">Total Rooms</span>
             <span class="value">{{ Room::all()->count() }} </span>
         </div>
-    </div><!--/col-->
+    </div>
 
     <div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
             <div class="smallstat box">
                 <i class="fa fa-unlock lightBlue"></i>
-                <span class="title">Available</span>
+                <span class="title">Available Rooms</span>
                 <span class="value">
-                <?php $available=0;?>
-                @if($available==0)
-
-                <a style="color:red;font-weight: bolder;"> {{ $available }} </a><a style="font-size: 11px;">(Running Out of Rooms)</a>
+                <?php $reserved = RoomStatus::where("status_id","=","reserved")->where("dateregistered",">=",date("m/d/Y"))->count(); $all = Room::all()->count();?>
+                @if(($all-$reserved)==0)
+                <a style="color:red;font-weight: bolder;"> {{ $all-$reserved }} </a><a style="font-size: 11px;">(Running Out of Rooms)</a>
                 @else
-
-                {{ Room::all()->count() }}
+                {{ $all-$reserved }}
                 @endif
                 </span>
             </div>
-        </div><!--/col-->
+        </div>
 
+    <div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
+        <div class="smallstat box">
+            <i class="fa fa-money lightBlue"></i>
+            <span class="title">Bookings</span>
+            <span class="value">{{ Booking::where("end_date",">=",date("m/d/Y"))->count() }}</span>
+        </div>
+    </div>
 
     <div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
         <div class="smallstat box">
             <i class="fa fa-lock lightBlue"></i>
 
             <span class="title">Reservations</span>
-            <span class="value">{{ Booking::where("is_reserved","=",1)->count() }}</span>
+            <span class="value">{{ Booking::where("is_reserved","=",1)->where("end_date",">",date("m/d/Y"))->count() }}</span>
         </div>
-    </div><!--/col-->
-
-    <div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
-        <div class="smallstat box">
-            <i class="fa fa-money lightBlue"></i>
-            <span class="title">Bookings</span>
-            <span class="value">{{ Booking::all()->count() }}</span>
-        </div>
-    </div><!--/col-->
+    </div>
 
 
-</div><!--/row-->
+</div>
 
 <div class="row">
     <div class="col-xs-12">
-
         <div id="main-chart" style="width:100%; height:400px;">
 
         </div>
+    </div>
+</div>
 
-    </div><!--/col-->
 
-</div><!--/row-->
 
 <div class="row">
 
@@ -80,7 +73,7 @@
             <div class="multi-stat-box box">
                 <div class="header">
                     <div class="left">
-                        <h2>Weekly Arrival Summary</h2>
+                        <h2>Monthly Arrival Summary</h2>
                         <a class="fa fa-chevron-down"></a>
                     </div>
                     <div class="right">
@@ -92,21 +85,25 @@
                     <div class="left">
                         <ul>
                             <li>
-                                <span class="date">Overall</span>
-                                <span class="value">{{ Client::all()->count() }}</span>
+                                <span class="date">Overall(Whole Month)</span>
+                                <span class="value">{{ Client::getMonthClient() }}</span>
                             </li>
                             <li class="active">
                                 <span class="date">This week</span>
-                                <span class="value">{{ Client::all()->count() }}</span>
+                                <span class="value">{{ Client::getWeekClient() }}</span>
                             </li>
                             <li>
                                 <span class="date">Yesterday</span>
-                                <span class="value">{{ Client::all()->count() }}</span>
+                                <span class="value">{{ Client::getYesterdayClient() }}</span>
                             </li>
                             <li>
                                 <span class="date">Today</span>
-                                <span class="value">{{ Client::all()->count() }}</span>
+                                <span class="value">
+
+                                {{ Client::getTodaysClient() }}
+                                </span>
                             </li>
+
                         </ul>
                     </div>
                     <div class="right">

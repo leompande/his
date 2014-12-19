@@ -3,7 +3,7 @@
         <!-- start: Content -->
         <div id="content" class="col-lg-10 col-sm-11">
             <div class="row" style="padding: 10px;background: white;-webkit-border-radius: 0 0 2px 2px;-moz-border-radius: 0 0 2px 2px;border-radius: 0 0 2px 2px;border:1px solid #ccc; ">
-                <b>Manage Rooms</b>
+                <b>Manage Services</b>
             </div></br>
 
             <div class="row">
@@ -11,7 +11,7 @@
                 <div class="col-sm-8">
                     <div class="box">
                         <div class="box-header">
-                            <h2><i class="fa fa-check"></i>List Of Rooms</h2>
+                            <h2><i class="fa fa-check"></i>List Of Services</h2>
                             <div class="box-icon">
                                 <a href="ui-nestable-list.html#" class="btn-setting"><i class="fa fa-wrench"></i></a>
                                 <a href="ui-nestable-list.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
@@ -22,14 +22,14 @@
                         <div class="row" >
                             <div class="col-md-12" id="button_list">
                             <span class="btn-group" >
-                                <a class="btn btn-info btn-xs" id="all_room"><b><i class="fa fa-list-ol"></i>&nbsp; all rooms</b></a>
-                                <a class="btn btn-success btn-xs" id="available_room"><b><i class="fa fa-list"></i>&nbsp; available rooms</b></a>
-                                <a class="btn btn-danger btn-xs" id="reserved_room"><b><i class="fa fa-th-list"></i>&nbsp; reserved rooms</b></a>
+                            @foreach(ServiceCategory::all() as $servicesCat)
+                                <a class="btn btn-info btn-xs" id="{{ $servicesCat->id }}"><b><i class="fa fa-list"></i>&nbsp;View  {{ $servicesCat->service_category_name }} List</b></a>
+                            @endforeach
                             </span>
                         </div>
                         </div>
                         <div class="row" id="room_list">
-                            @include('system.Room.list')
+                            @include('system.Services.list')
                         </div>
 
                         </div>
@@ -38,7 +38,7 @@
                 <div class="col-sm-4">
                     <div class="box">
                         <div class="box-header">
-                            <h2><i class="fa fa-check"></i><span id="form_title">Add Room</span></h2>
+                            <h2><i class="fa fa-check"></i><span id="form_title">Add Service</span></h2>
                             <div class="box-icon">
                                 <a href="ui-nestable-list.html#" class="btn-setting"><i class="fa fa-wrench"></i></a>
                                 <a href="ui-nestable-list.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="box-content clearfix" id="room_add">
-                            @include('system.Room.add')
+                            @include('system.Services.add')
                         </div>
 
                     </div>

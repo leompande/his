@@ -14,6 +14,14 @@ class UserTableSeeder extends Seeder
             'email'    => 'leo.august27@gmail.com',
             'password' => Hash::make('mpande'),
         ));
+//        User::create(array(
+//            'firstname'   => 'Admininstrator',
+//            'middlename'  => '',
+//            'lastname'  => '',
+//            'username' => 'Admin',
+//            'email'    => 'admin@gmail.com',
+//            'password' => Hash::make('hotel'),
+//        ));
     }
 
 }

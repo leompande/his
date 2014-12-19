@@ -1,3 +1,14 @@
+<?php
+    $reservedArray = Array();
+           $roomstatus = RoomStatus::where("dateregistered",">=",date("m/d/Y"))->get();
+           $id = 0;
+    foreach($roomstatus as $status){
+    if($status->status_id=="reserved"){
+           $reservedArray[$id] = $status->room_id;
+    }
+           $id++;
+    }
+ ?>
 <div class="col-md-12" id="loged_div"></div>
 <div class="col-md-12" id="normal_div">
     <table id="table_list_all_room" class="table datatable table-hover table-stripped">
@@ -22,7 +33,13 @@
                 <td>{{ RoomCategory::find($room->category_id)->category_name }}</td>
                 <td>
                  <span class="btn-group" id="{{ $room->id  }}_{{ $room->created_at  }}_{{ $room->updated_at  }}_{{ $room->room_number }}">
-                    <a class="btn btn-success btn-xs" title="reserve">reserve</a>
+
+                   @if(in_array($room->id,$reservedArray))
+                   <a class="btn btn-default btn-xs reserved_room all_room" title="this room is reserves" disabled="disabled">reserved</a>
+
+                   @else
+                   <a class="btn btn-success btn-xs reserve available_room all_room" title="reserve" id="Room,{{ $room->id }}">reserve</a>
+                   @endif
                     <a class="btn btn-warning btn-xs edit" title="edit " id="{{ $room->id }}">edit</a>
                     <a class="btn btn-info btn-xs log" id="Room_{{ $room->id }}">log</a>
                     <a class="btn btn-danger btn-xs delete" title="delete" href="#myModal" data-toggle="">delete</a>
@@ -129,6 +146,18 @@
                                    },1000);
                                 }
                 });
+                }
+                if($(this).attr("class").indexOf("reserve")>-1){
+                  $.ajax({
+                     type: "GET",
+                     url: "<?php echo url("rooms/roomreserve")?>/"+$(this).attr("id").split(",")[1],
+                     data: "",
+                     success: function(data){
+                     $("div#normal_div").hide();
+                     $("div#loged_div").html(data);
+                      }
+                     });
+
                 }
                 if($(this).attr("class").indexOf("log")>-1){
                   $.ajax({

@@ -185,6 +185,7 @@ class BookingController extends \BaseController {
         RoomStatus::create(array(
             'room_id' =>$room_id,
             'status_id' => "reserved",
+            'dateregistered' => $booking->end_date,
         ));
 
         Log::create(array(

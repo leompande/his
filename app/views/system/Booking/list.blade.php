@@ -1,3 +1,14 @@
+<?php
+    $reservedArray = Array();
+           $bookings = Booking::where("end_date",">=",date("m/d/Y"))->get();
+           $id = 0;
+    foreach($bookings as $booking){
+        if($booking->is_reserved==1){
+               $reservedArray[$id] = $booking->id;
+        }
+           $id++;
+    }
+ ?>
 <div class="col-md-12" id="loged_div"></div>
 <div class="col-md-12" id="normal_div">
     <table id="table_list_all_bookings" class="table table-hover table-stripped">
@@ -31,7 +42,14 @@
                 <td><a class="cat_view" title="view categories" href="#myModal" data-toggle=""  id="{{ $booking->id }},{{ $booking->categories }}"><i class="fa fa-list"></i></a></td>
                 <td>
                 <span class="btn-group" id="{{ $booking->id  }}_{{ $booking->created_at  }}_{{ $booking->updated_at  }}_{{ $booking->client_name }}">
+
+
+                   @if(in_array($booking->id,$reservedArray))
+                   <a class="btn btn-default btn-xs " title="this booking is reserved" disabled="disabled">reserved</a>
+
+                   @else
                     <a class="btn btn-success btn-xs reserve" title="reserve" id="reserve_{{ $booking->id }}">reserve</a>
+                   @endif
                     <a class="btn btn-warning btn-xs edit" title="edit " id="{{ $booking->id }}">edit</a>
                     <a class="btn btn-info btn-xs log" id="Booking_{{ $booking->id }}">log</a>
                     <a class="btn btn-danger btn-xs delete"  href="#myModal" data-toggle="" title="delete">delete</a>
